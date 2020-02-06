@@ -36,6 +36,5 @@ def now_serving(customers)
 
   else
     puts "There is nobody waiting to be served!"
-    customers.shift
   end
 end
