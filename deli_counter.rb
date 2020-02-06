@@ -16,4 +16,5 @@ def line(customers)
 end
 
 def take_a_number(list, customer_name)
+  list << customer_name
 end
