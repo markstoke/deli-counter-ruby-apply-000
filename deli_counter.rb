@@ -35,6 +35,6 @@ def now_serving(customers)
     
   else
     puts "Currently serving #{customers[0]}"
-    customers.shift!
+    customers.shift
   end
 end
