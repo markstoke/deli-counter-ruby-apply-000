@@ -30,11 +30,12 @@ end
 def now_serving(customers)
 
   if customers.length == 0
-    puts "The line is empty."
+    puts "puts ""
+    customers.shift!"
     customers.shift!
-    
+
   else
-    puts "Currently serving #{customers[0]}"
+    puts "There is nobody waiting to be served!"
     customers.shift
   end
 end
