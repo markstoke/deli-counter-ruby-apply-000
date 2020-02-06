@@ -16,5 +16,9 @@ def line(customers)
 end
 
 def take_a_number(list, customer_name)
-  list.push(customer_name)
+  if customers.length == 0
+    customers[0] = customer_name
+  else
+    customers << customer_name
+  end
 end
