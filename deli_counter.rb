@@ -15,10 +15,10 @@ def line(customers)
 
 end
 
-def take_a_number(list, customer_name)
+def take_a_number(customers, new_customer)
   if customers.length == 0
-    customers[0] = customer_name
+    customers[0] = new_customer
   else
-    customers << customer_name
+    customers << new_customer
   end
 end
