@@ -15,4 +15,5 @@ def line(customers)
 
 end
 
-def take_a_number(list, string)
+def take_a_number(list, customer_name)
+end
