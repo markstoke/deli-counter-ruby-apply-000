@@ -1,16 +1,18 @@
 # Write your code here.
 katz_deli = []
 
-def line(list)
+def line(customers)
 
-  if list.length == 0
+  if customers.length == 0
     puts "The line is currently empty."
 
   else
-    customers = ""
-    list.each.with_index {|customer, idx| customers << " #{idx+1}. #{customer}"}
-    puts "The line is currently:#{customers}"
+    list = ""
+    customers.each.with_index {|customer, idx| list << " #{idx+1}. #{customer}"}
+    puts "The line is currently:#{list}"
 
   end
 
 end
+
+def take_a_number(list, string)
