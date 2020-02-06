@@ -27,13 +27,14 @@ def take_a_number(customers, new_customer)
   end
 end
 
-
-
 def now_serving(customers)
+
   if customers.length == 0
     puts "The line is empty."
     customers.shift!
+    
   else
     puts "Currently serving #{customers[0]}"
-      customers.shift!
+    customers.shift!
+  end
 end
