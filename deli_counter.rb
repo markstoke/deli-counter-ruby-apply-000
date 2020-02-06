@@ -21,4 +21,5 @@ def take_a_number(customers, new_customer)
   else
     customers << new_customer
   end
+
 end
